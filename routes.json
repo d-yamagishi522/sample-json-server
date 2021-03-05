@@ -1,0 +1,5 @@
+{
+  "/test": "/mock_1",
+  "/sample/end": "/mock_2",
+  "/test?id=test-id": "/mock_3"
+}

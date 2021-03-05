@@ -1,0 +1,13 @@
+{
+  "name": "sample-json-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "create-mock": "node ./merge_mock_json.js",
+    "boot-mock": "json-server mock.json -m middleware.js --routes routes.json --host localhost -p 8080",
+    "serve": "yarn create-mock && yarn boot-mock"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
